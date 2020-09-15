@@ -109,5 +109,9 @@ public class ListaSEController implements Serializable {
         irPrimero();
     }
     
-    
+    public void eliminar()
+    {
+        listaPerros.eliminarPerro(temp.getDato().getNumero());
+        irPrimero();
+    }
 }
